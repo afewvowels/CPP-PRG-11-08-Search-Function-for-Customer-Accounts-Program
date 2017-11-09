@@ -361,7 +361,7 @@ bool *validatePhoneNumber(string *strPhone)
     *isValid = false;
     
     char *chrArr = nullptr;
-    chrArr = new char[10];
+    chrArr = new char[12];
     
     strcpy(chrArr, strPhone->c_str());
     
